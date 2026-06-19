@@ -1,0 +1,21 @@
+{
+  "name": "dainit-default",
+  "steps": [
+    {
+      "type": "config",
+      "data": {
+        "home": "/home/daos"
+      }
+    },
+    {
+      "type": "exec",
+      "cmd": "mkdir",
+      "args": ["/workspaces"]
+    },
+    {
+      "type": "exec",
+      "cmd": "cp",
+      "args": ["/a", "/b"]
+    }
+  ]
+}
