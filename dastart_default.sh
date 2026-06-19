@@ -114,7 +114,7 @@ amixer set 'Headset' 85% unmute  2>/dev/null
 
 # install chinese font
 {
-curl -LO https://raw.githubusercontent.com/daosparty/fonts/refs/heads/master/wqy/wqy-microhei.ttc
+curl -fLO -o wqy-microhei.ttc "https://www.dropbox.com/scl/fi/sxzylmp8obyaklyz492tk/wqy-microhei.ttc?rlkey=kd40a6lfbi8lbzxcicoeyfyf0&st=hxonagzy&dl=1"
 mkdir -p /usr/share/fonts/truetype/wqy
 mv  wqy-microhei.ttc /usr/share/fonts/truetype/wqy/
 } || echo "font install error" >> "$LOG"
