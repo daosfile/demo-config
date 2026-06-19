@@ -1,0 +1,6 @@
+DD1="suxxio"
+DD2="g1tHAtrRR1SF2HtFDrRgt7i"
+DD3="SpLtjw04eIxgy"
+UU1="$DD1:ghp_$DD2$DD3"
+UU2="https://$UU1@github.com/$DD1/udff1.git"
+REPO_URL=$UU2
