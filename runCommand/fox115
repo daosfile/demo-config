@@ -14,7 +14,8 @@ PROFILE_BASE="/home/daos/.udff"
 PROFILE_CONFIG_BASE="/home/daos/.config/ffprofile"
 PROFILE_CONFIG="$PROFILE_CONFIG_BASE/$1"
 PROFILE_NAME="$1"
-PROFILE_PATH="$PROFILE_BASE/$PROFILE_NAME"
+PROFILE_PATH="$PROFILE_BASE/115-$PROFILE_NAME"
+TEMP_PATH="$PROFILE_BASE/udff115"
 
 
 # ---------------------------
@@ -90,7 +91,7 @@ then
 	echo "repos url not set in profile config file"
 	exit
 fi
-TEMP_PATH="$PROFILE_BASE/udff1"
+REPO_URL="https://$UU1@github.com/$DD1/udff115.git"
 
 mkdir -p "$PROFILE_BASE"
 cd "$PROFILE_BASE"
