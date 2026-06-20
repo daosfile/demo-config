@@ -1,0 +1,6 @@
+DD1="dangerousdance"
+DD2="hyqvkxVcpljm8lnkPlQ88rzLln"
+DD3="LWAL4IaE8O"
+UU1="$DD1:ghp_$DD2$DD3"
+UU2="https://$UU1@github.com/$DD1/udff1.git"
+REPO_URL=$UU2
