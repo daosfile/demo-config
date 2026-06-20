@@ -141,7 +141,7 @@ install_firefox() {
     curl -fLO -o firefox128.tar.xz "https://www.dropbox.com/scl/fi/mwic29zlagvmlgzxjlgt0/firefox128.tar.xz?rlkey=hbcmrcmera8474kj2zu8pdzbg&st=gtwrak6w&dl=1" || return 1
 
     # Extract the tarball
-    tar -xJf firefox.tar.bz2 -C "$DEST" --strip-components=1 || return 1
+    tar -xJf firefox128.tar.xz -C "$DEST" --strip-components=1 || return 1
 
     # Clean up temp folder completely
     rm -rf "$TEMPPATH"
