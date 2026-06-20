@@ -9,7 +9,7 @@ fi
 
 
 # --- CONFIGURATION ---
-BIN_PATH="/home/daos/.software/firefox/firefox"
+BIN_PATH="/home/daos/.software/firefox115/firefox"
 PROFILE_BASE="/home/daos/.udff"
 PROFILE_CONFIG_BASE="/home/daos/.config/ffprofile"
 PROFILE_CONFIG="$PROFILE_CONFIG_BASE/$1"
