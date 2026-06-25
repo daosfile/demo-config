@@ -1,6 +1,6 @@
-DD1="dadevhome"
-DD2="lk3XimsrthMA5FFfXVp"
-DD3="KqptagnyRzv0aevFB"
-UU1="$DD1:ghp_$DD2$DD3"
+DD1="quitegame"
+DD2="_pat_11CDBFQCI0slrd6xTz5mYm_T7iHz5geI8Sxvqo"
+DD3="JGYuISDR9NBzXSyP6lZFbSlj7FdfNBY2JM4MlIQGF6a5"
+UU1="$DD1:github$DD2$DD3"
 UU2="https://$UU1@github.com/$DD1/udff1.git"
 REPO_URL=$UU2
